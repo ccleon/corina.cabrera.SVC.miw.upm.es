@@ -1,0 +1,19 @@
+package corina.cabrera.SVC.miw.upm.es;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class C32Test {
+	private C32 c32;
+	
+	@Before
+    public void before() {
+        this.c32 = new C32();
+    }
+
+	@Test
+	public void testMA() {
+		assertEquals("mA", this.c32.mA());
+	}
+}
